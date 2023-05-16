@@ -1,0 +1,124 @@
+@charset "utf-8";
+.wrap .inner {
+  width: 1200px;
+  height: 700px;
+  background-color: khaki;
+}
+/* header영역 */
+.header {
+  width: 1200px;
+  height: 100px;
+  background-color: rgb(199, 151, 243);
+  
+}
+.logo {
+    position: relative;
+  float: left;
+  background-color: rgb(95, 149, 197);
+  width: 200px;
+  height: 100px;
+}
+.logo>img{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.menu {
+  background-color: rgb(128, 216, 216);
+  width: 1000px;
+  height: 100px;
+  position: absolute;
+  left: 200px;
+}
+/* B영역 */
+.slide {
+    position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(236, 114, 114);
+}
+
+.slide>img{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+}
+/* C영역 */
+.content {
+    background-color: aquamarine;
+  
+}
+.gall {
+  width: 33.3%;
+  height: 200px;
+  float: left;
+  position: relative;
+  background-color: blanchedalmond;
+}
+.content>.gall>img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  transform: translate(-50%, -50%);
+}
+.banner {
+  width: 33.3%;
+  height: 200px;
+  float: left;
+  background-color: rgb(133, 133, 133);
+}
+.link {
+  width: 33.3%;
+  height: 200px;
+  background-color: darkcyan;
+  position: relative;
+  float: left;
+}
+.link>img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  transform: translate(-50%, -50%);
+}
+
+
+/* footer영역 */
+.footer {
+  background-color: rgb(122, 122, 212);
+}
+.f_logo {
+  width: 20%;
+  height: 100px;
+  float: left;
+  background-color: deepskyblue;
+}
+.copy {
+  position: relative;  
+  width: 60%;
+  height: 100px;
+  float: left;
+  background-color: rgb(236, 127, 236);
+}
+
+.copy>img{
+    position: absolute;
+    top:50%;
+    right: 50%;
+    width: 80px;
+    transform: translate(0 ,-50%);
+}
+
+.sns {
+  width: 20%;
+  height: 100px;
+  background-color: rgb(219, 172, 172);
+  float: left;
+}

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../여누0501"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "김연우",
+		"liveServer.settings.port": 5501
+	}
+}

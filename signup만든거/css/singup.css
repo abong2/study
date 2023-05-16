@@ -1,0 +1,136 @@
+@charset "utf-8";
+@charset "utf-8";
+*{
+    list-style: none;
+}
+.container{
+    margin: 0 auto;
+    width: 960px;
+    }
+.navi{
+    width: 960px;
+    height: 60px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #666;
+}
+.navi> ul{
+    padding-top: 10px;
+    list-style: none;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.navi>ul>li{
+text-align: center;
+/* padding: 10px; */
+float: left;
+width: 150px;
+}
+.navi a:link,.navi a:visited{
+    display: block;
+    font-size: 14px;
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+    /* background-color: antiquewhite; */
+}
+/* .navi a:visited{
+    display: block;
+    font-size: 14px;
+    color: #d60e0e;
+    padding: 10px;
+    text-decoration: none;
+} */
+.navi a:hover, .navi a:hover{
+background-color: #222;
+color: #fff;
+}
+.navi a:active{
+    background-color: brown;
+}
+
+.contents{
+    width: 400px;
+    /* background-color: cornflowerblue; */
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 20px;
+    border: 1px solid #222;
+}
+#intro:target{
+    background-color: cadetblue;
+    color: #222;
+}
+#room:target{
+    background-color: rgb(208, 159, 223);
+    color: #222;
+}
+#reservation:target{
+    background-color: rgb(231, 155, 161);
+    color: #222;
+}
+
+
+#signup{
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 1px solid #222;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+#signup fieldset{
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+#signup legend{
+    font-size: 20px;
+    font-weight: 600;
+    padding:0px 15px;
+    padding-bottom: 10px;
+}
+#signup ul li{
+    line-height: 30px;
+    padding: 5px 10px;
+    margin-bottom: 2px;
+}
+
+#signup fieldset:first-of-type label{
+    /* background-color: lightsteelblue; */
+    font-size: 13px;
+    width: 60px;
+    float: left;
+}
+/* #signup input[type=text],input[type=tel]{
+    background-color: cadetblue;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 200px;
+    border-radius: 3px;
+} */
+/* 위에꺼랑 아래꺼랑 주석만다를뿐 똑같은 결과나옴 */
+#signup input:not([type=radio]){
+    /* background-color: cadetblue; */
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 200px;
+    border-radius: 3px;
+}
+#signup input:not([type=radio]):hover{
+border-color: crimson;
+}
+#signup input:checked + label {
+/* background-color: crimson; */
+color: crimson;
+font-weight: bold;
+}
+
+#signup button{
+    padding: 7px 25px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+
+    

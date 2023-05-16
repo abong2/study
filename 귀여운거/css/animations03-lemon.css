@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+.wrap-lemon {
+    width: 400px;
+    position: relative;
+    animation:  lemon-ani 2s infinite ;
+    transform: rotate(-5deg);
+}
+
+.wrap-lemon .body {
+    width: 100%;
+}
+
+.wrap-lemon .arm {
+    width: 57%;
+    position: absolute;
+    right: -85px;
+    top: 60px;
+    z-index: -1;
+    animation: arm-ani 1s infinite cubic-bezier(.81, .98, .04, .55);
+}
+
+/* 큐빅베지어: 등가감속운동의 속도감을 조절한다 */
+.wrap-lemon .leaf {
+    width: 50%;
+    position: absolute;
+    left: 8px;
+    top: 10px;
+    z-index: 10;
+    animation: leaf-ani 1s infinite;
+}
+
+@keyframes arm-ani {
+    0% {}
+
+    50% {
+        top: 30px;
+        right: -95px;
+    }
+
+    100% {}
+
+}
+
+@keyframes leaf-ani {
+    50% {
+        top: 13px;
+    }
+}
+
+@keyframes lemon-ani {
+    50% {
+        transform: rotate(5deg);
+    }
+}

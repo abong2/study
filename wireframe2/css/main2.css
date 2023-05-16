@@ -1,0 +1,19 @@
+@charset "utf-8";
+.wrap
+.inner{width: 1200px; height: 700px; text-align: center; color:rgb(59, 59, 59) }
+/* header영역 */
+.header{width: 1200px; height: 100px; background-color: rgb(181, 196, 209); position: relative; line-height: 100px; }
+.logo{width: 200px; height: 100px; background-color: aquamarine; float: left;} 
+.menu{width: 1000px; height: 100px; background-color: rgb(240, 240, 138); position: absolute;left: 200px;}
+/* slide영역 */
+.slide{width: 1200px; height: 300px; background-color: rgb(103, 187, 187); line-height: 300px;}
+/* c영역 */
+.comma{line-height: 200px;}
+.notice{width: 33.3%; height: 200px; background-color: cornflowerblue; float: left;}
+.gall{width: 33.3%;height: 200px; background-color: rgb(58, 91, 151);float: left;}
+.banner{width: 33.3%; height: 200px; background-color: darksalmon;float: left;}
+/* footer영역 */
+.footer{background-color: rgb(122, 122, 212); line-height: 100px;}
+.f-logo{width: 200px; height: 100px;float:left;background-color: deepskyblue;}
+.copy{width: 800px; height: 100px;float:left;background-color: rgb(236, 127, 236);}
+.site{width: 200px; height: 100px;background-color: rgb(219, 172, 172);float:left}
